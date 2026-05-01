@@ -1,18 +1,26 @@
 # UniBridge: Relatability as a Product 🎓
 
-**SS2/SS3 Session-Booking Platform for Peer-Level Guidance**
-Built by **Ibrahim Danjuma** (300L CS @ FUT Minna).
+**A Session-Booking Marketplace bridging the student-to-student gap.**
+Built by **Umar Farooq Ibrahim Danjuma**  
+*300L Computer Science @ FUT Minna | MLSA | NextGen Fellow | GDGoC Core Team*
+
+---
 
 ## 🎯 The Vision
-UniBridge fills the student-to-student gap by connecting secondary school students with top-performing university mentors. 
+UniBridge is a session-booking platform where SS2/SS3 secondary school students book 1-on-1 video calls with verified, top-performing university students. 
+
+**The Moat:** While other platforms focus on professional-to-graduate mentoring, UniBridge fills the **peer-level gap**. A 16-year-old relates better to a 21-year-old who just cleared the hurdles they are currently facing.
 
 ## 📅 Roadmap Tracking (4-Week Sprint)
 - [ ] **Week 1: JS Hard Parts** (Boot.dev Ch. 1-10) 🏗️
-- [ ] **Week 2: Async JS & Figma** (Booking Flows) ⏳
-- [ ] **Week 3: TypeScript Mastery** (Data Schemas) ⏳
-- [ ] **Week 4: Next.js & Cloud Deployment** ⏳
+- [ ] **Week 2: Async JS & Figma** (Booking Flows & UI) ⏳
+- [ ] **Week 3: TypeScript Mastery** (Type-Safe Data Schemas) ⏳
+- [ ] **Week 4: Next.js & Cloud Deployment** (Production Launch) ⏳
 
 ## 🛠 Project Structure
-- `/learning`: JS and TypeScript logic practice.
-- `/app`: The Next.js production build.
-- `/design`: Figma links and UI documentation.
+- `/learning`: Core JavaScript and TypeScript logic practice.
+- `/app`: The Next.js production build (initialized in Week 3).
+- `/design`: Figma wireframes and user journey documentation.
+
+## 🏢 Brand
+A **UFID** Software Company Project.
