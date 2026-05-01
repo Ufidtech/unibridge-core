@@ -1,7 +1,7 @@
 # UniBridge: Relatability as a Product 🎓
 
 **SS2/SS3 Session-Booking Platform for Peer-Level Guidance**
-Built by **Umar Farooq Ibrahim Danjuma** (300L CS @ FUT Minna | CGPA: 4.53).
+Built by **Ibrahim Danjuma** (300L CS @ FUT Minna).
 
 ## 🎯 The Vision
 UniBridge fills the student-to-student gap by connecting secondary school students with top-performing university mentors. 
