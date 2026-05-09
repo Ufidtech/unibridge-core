@@ -11,12 +11,12 @@ let isVerifiedLeader = true;       // Based on your MLSA/GDGoC status
 let accountBalance = 6000;         // Current credits in the UFID wallet
 let isExamSeason = false;          // Toggle this to test surcharges
 
-let isEligibleForMentorship = (academicLevel >= MIN_MENTOR_LEVEL) && isVerifiedLeader || (academicLevel >= MIN_MENTOR_LEVEL + 100);
+let isEligibleToMentor = (academicLevel >= MIN_MENTOR_LEVEL) && isVerifiedLeader || (academicLevel >= MIN_MENTOR_LEVEL + 100);
 
 let finalFee = BASE_SESSION_FEE;
 
-if (isEligibleForMentorship) {
-    const discount = finalFee * COMMUNITY_DISCOUNT;
+if (isEligibleToMentor) {
+    let discount = finalFee * COMMUNITY_DISCOUNT;
     finalFee -= discount;
 }
 
@@ -30,10 +30,13 @@ let canAffordSession; // Placeholder for affordability logic
     let canAffordSession = true;
 } else {
     let canAffordSession = false;
+
 }
 
+let canAffordSession = accountBalance >= finalFee;
+
 console.log ("--- SYSTEM AUDIT: [userName: " + userName + ", academicLevel: " + academicLevel + ", isVerifiedLeader: " + isVerifiedLeader + ", accountBalance: " + accountBalance + ", isExamSeason: " + isExamSeason + "] ---");
-console.log("Is eligible for mentorship: " + isEligibleForMentorship);
+console.log("Is eligible to mentor: " + isEligibleToMentor);
 console.log("Final session fee after adjustments: " + finalFee);
 console.log("Can afford session: " + canAffordSession);
 
